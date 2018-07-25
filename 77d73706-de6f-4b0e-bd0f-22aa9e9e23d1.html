@@ -1,85 +1,58 @@
 <div data-ddue="developerConceptualDocument" data-introductionaddress="__top">
-    <p data-ddue="para">A PivotTable report is an interactive tool that combines and compares data. You can rotate its rows and columns to see
-        different summaries of the
-        <span data-ddue="token" contenteditable="false" data-tokenname="TE102657507" data-token-guid="5c05d960-647e-4a35-8db1-6678a7a7f5e9"
-            title="Shared content. Right-click in edit mode for options.">source data</span> and display the details for areas of interest. Use a PivotTable when you want to analyze related
-        totals, especially when you have a long list of figures to sum and you want to compare several facts about each figure.
-        Because a PivotTable is interactive, you can freely experiment with
-        <g class="gr_ gr_42 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep"
-            id="42" data-gr-id="42">layout</g> of the data to focus on specific details or calculate different summaries, such as counts or averages.</p>
-    <h2
-        data-ddue="section">When to use a PivotTable</h2>
-        <p data-ddue="para">PivotTables are
-            <g class="gr_ gr_52 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling multiReplace"
-                id="52" data-gr-id="52">especially</g> designed for the following uses:</p>
-        <ul data-ddue="ddue:list">
-            <li>
-                <p data-ddue="para">Getting perspective on large amounts of data in multiple ways</p>
-            </li>
-            <li>
-                <p data-ddue="para">Subtotaling and aggregating numeric data, summarizing data by categories and subcategories, and creating
-                    custom calculations and formulas</p>
-            </li>
-            <li>
-                <p data-ddue="para">Expanding and collapsing levels of data to focus your results, and drilling down to details from the summary
-                    data for areas that are interesting to you</p>
-            </li>
-            <li>
-                <p data-ddue="para">Moving data fields to columns to rows (or "pivoting") to see different summaries of the source data</p>
-            </li>
-            <li>
-                <p data-ddue="para">Filtering, sorting, grouping, and conditionally formatting the most useful and interesting subset of data
-                    to enable you to focus on the information that you want</p>
-            </li>
-            <li>
-                <p data-ddue="para">Presenting concise, attractive, and annotated reports</p>
-            </li>
-        </ul>
-        <p data-ddue="para">Use a PivotTable when you want to analyze related totals, especially when you have a long list of figures to sum,
-            and aggregated data or subtotals would help you look at the data from different perspectives and compare figures
-            of similar data.</p>
-        <p data-ddue="para">The following example shows a worksheet with quarterly sales by state. The data is in no particular order:</p>
-        <p
-            data-ddue="para">
-            <img data-guid="786876df-64bb-4a92-b5e5-2aad6ace5e65" data-cke-saved-src="/content/images/786876df-64bb-4a92-b5e5-2aad6ace5e65"
-                src="/content/images/786876df-64bb-4a92-b5e5-2aad6ace5e65">
-            </p>
-            <p data-ddue="para">
-                <img data-guid="e7950f26-9de8-460b-ab4c-4a4140f0ad7d" data-cke-saved-src="/content/images/e7950f26-9de8-460b-ab4c-4a4140f0ad7d"
-                    src="/content/images/e7950f26-9de8-460b-ab4c-4a4140f0ad7d"> Sales of items by state</p>
-            <p data-ddue="para">
-                <img data-guid="685bd419-b740-4e75-bd45-5911b044fafc" data-cke-saved-src="/content/images/685bd419-b740-4e75-bd45-5911b044fafc"
-                    src="/content/images/685bd419-b740-4e75-bd45-5911b044fafc"> Sales for California</p>
-            <p data-ddue="para">The following example shows how the same data can be better summarized in a PivotTable:</p>
-            <p data-ddue="para">
-                <img data-guid="45a5e50f-06d2-4120-bf21-1017e4c6d993" data-cke-saved-src="/content/images/45a5e50f-06d2-4120-bf21-1017e4c6d993"
-                    src="/content/images/45a5e50f-06d2-4120-bf21-1017e4c6d993">
-            </p>
-            <p data-ddue="para">
-                <img data-guid="60df03f3-4603-4443-b354-587538f7b1de" data-cke-saved-src="/content/images/60df03f3-4603-4443-b354-587538f7b1de"
-                    src="/content/images/60df03f3-4603-4443-b354-587538f7b1de"> &nbsp;PivotTable summarizing quarterly sales by state</p>
-            <p data-ddue="para">
-                <img data-guid="1ba319b8-df6f-4044-89a7-60be57f34a94" data-cke-saved-src="/content/images/1ba319b8-df6f-4044-89a7-60be57f34a94"
-                    src="/content/images/1ba319b8-df6f-4044-89a7-60be57f34a94"> &nbsp;Summary for California</p>
-            <p data-ddue="para">In a PivotTable, each column or field in the source data becomes a
-                <span data-ddue="token" contenteditable="false"
-                    data-tokenname="TE102657349" data-token-guid="1fef6071-64d3-4826-85f5-1aa688897210" title="Shared content. Right-click in edit mode for options.">PivotTable field</span> that summarizes multiple rows of information. In the previous example, the Location
-                column becomes the Location field, and each record (a collection of information about a field) for California
-                is summarized in a single
-                <span data-ddue="token" contenteditable="false" data-tokenname="TE102657352" data-token-guid="99961b45-51f7-4a3d-a9f0-78432ca3b7d6"
-                    title="Shared content. Right-click in edit mode for options.">PivotTable item</span> for California.</p>
-            <p data-ddue="para">A value field, such as Sum of Sales, contains the values to be summarized. In the previous report, the Q3 California
-                summary contains the sum of the Sales value from every row in the worksheet for which the Location column
-                contains California and the Quarter column contains Q3.</p>
-            <h2 data-ddue="section">Preparing your data for a PivotTable</h2>
-            <p data-ddue="para">When you use a worksheet as the basis for a PivotTable, the data should be in a list or table format with descriptive
-                column names in the first row. Each cell in later rows should contain data appropriate to its column name.
-                There should be no blank rows or blank columns within the data of interest. Excel uses your column names
-                as field names in PivotTables. Using the PivotTable Builder, you can drag these fields into the row, column
-                and report filter areas of the PivotTable.</p>
-            <h2 data-ddue="section">See also</h2>
-            <p data-ddue="para">
-                <a data-guid="A9A84538-BFE9-40A9-A8E9-F99134456576" data-ddue="link" data-cke-saved-href="/#/topics/A9A84538-BFE9-40A9-A8E9-F99134456576/edit"
-                    title="CTRL+Click to open">Create a PivotTable</a>
-            </p>
+<p data-ddue="para">A PivotTable report is an interactive tool that combines and compares data. You can rotate its rows and columns to see different summaries of the <span contenteditable="false" data-ddue="token" data-token-guid="5c05d960-647e-4a35-8db1-6678a7a7f5e9" data-tokenname="TE102657507" title="Shared content. Right-click in edit mode for options.">source data</span> and display the details for areas of interest. Use a PivotTable when you want to analyze related totals, especially when you have a long list of figures to sum and you want to compare several facts about each figure. Because a PivotTable is interactive, you can freely experiment with layout of the data to focus on specific details or calculate different summaries, such as counts or averages.</p>
+
+<h2 data-ddue="section">When to use a PivotTable</h2>
+
+<p data-ddue="para">PivotTables are especially designed for the following uses:</p>
+
+<ul data-ddue="ddue:list">
+	<li>
+	<p data-ddue="para">Getting perspective on large amounts of data in multiple ways</p>
+	</li>
+	<li>
+	<p data-ddue="para">Subtotaling and aggregating numeric data, summarizing data by categories and subcategories, and creating custom calculations and formulas</p>
+	</li>
+	<li>
+	<p data-ddue="para">Expanding and collapsing levels of data to focus your results, and drilling down to details from the summary data for areas that are interesting to you</p>
+	</li>
+	<li>
+	<p data-ddue="para">Moving data fields to columns to rows (or &#34;pivoting&#34;) to see different summaries of the source data</p>
+	</li>
+	<li>
+	<p data-ddue="para">Filtering, sorting, grouping, and conditionally formatting the most useful and interesting subset of data to enable you to focus on the information that you want</p>
+	</li>
+	<li>
+	<p data-ddue="para">Presenting concise, attractive, and annotated reports</p>
+	</li>
+</ul>
+
+<p data-ddue="para">Use a PivotTable when you want to analyze related totals, especially when you have a long list of figures to sum, and aggregated data or subtotals would help you look at the data from different perspectives and compare figures of similar data.</p>
+
+<p data-ddue="para">The following example shows a worksheet with quarterly sales by state. The data is in no particular order:</p>
+
+<p data-ddue="para"><img data-guid="786876df-64bb-4a92-b5e5-2aad6ace5e65" src="/content/images/786876df-64bb-4a92-b5e5-2aad6ace5e65" /></p>
+
+<p data-ddue="para"><img data-guid="e7950f26-9de8-460b-ab4c-4a4140f0ad7d" src="/content/images/e7950f26-9de8-460b-ab4c-4a4140f0ad7d" /> Sales of items by state</p>
+
+<p data-ddue="para"><img data-guid="685bd419-b740-4e75-bd45-5911b044fafc" src="/content/images/685bd419-b740-4e75-bd45-5911b044fafc" /> Sales for California</p>
+
+<p data-ddue="para">The following example shows how the same data can be better summarized in a PivotTable:</p>
+
+<p data-ddue="para"><img data-guid="45a5e50f-06d2-4120-bf21-1017e4c6d993" src="/content/images/45a5e50f-06d2-4120-bf21-1017e4c6d993" /></p>
+
+<p data-ddue="para"><img data-guid="60df03f3-4603-4443-b354-587538f7b1de" src="/content/images/60df03f3-4603-4443-b354-587538f7b1de" /> &#160;PivotTable summarizing quarterly sales by state</p>
+
+<p data-ddue="para"><img data-guid="1ba319b8-df6f-4044-89a7-60be57f34a94" src="/content/images/1ba319b8-df6f-4044-89a7-60be57f34a94" /> &#160;Summary for California</p>
+
+<p data-ddue="para">In a PivotTable, each column or field in the source data becomes a <span contenteditable="false" data-ddue="token" data-token-guid="1fef6071-64d3-4826-85f5-1aa688897210" data-tokenname="TE102657349" title="Shared content. Right-click in edit mode for options.">PivotTable field</span> that summarizes multiple rows of information. In the previous example, the Location column becomes the Location field, and each record (a collection of information about a field) for California is summarized in a single <span contenteditable="false" data-ddue="token" data-token-guid="99961b45-51f7-4a3d-a9f0-78432ca3b7d6" data-tokenname="TE102657352" title="Shared content. Right-click in edit mode for options.">PivotTable item</span> for California.</p>
+
+<p data-ddue="para">A value field, such as Sum of Sales, contains the values to be summarized. In the previous report, the Q3 California summary contains the sum of the Sales value from every row in the worksheet for which the Location column contains California and the Quarter column contains Q3.</p>
+
+<h2 data-ddue="section">Preparing your data for a PivotTable</h2>
+
+<p data-ddue="para">When you use a worksheet as the basis for a PivotTable, the data should be in a list or table format with descriptive column names in the first row. Each cell in later rows should contain data appropriate to its column name. There should be no blank rows or blank columns within the data of interest. Excel uses your column names as field names in PivotTables. Using the PivotTable Builder, you can drag these fields into the row, column and report filter areas of the PivotTable.</p>
+
+<h2 data-ddue="section">See also</h2>
+
+<p data-ddue="para"><a data-ddue="link" data-guid="A9A84538-BFE9-40A9-A8E9-F99134456576" href="/#/topics/A9A84538-BFE9-40A9-A8E9-F99134456576/edit" title="CTRL+Click to open">Create a PivotTable</a></p>
 </div>
