@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
 <topics>
   <topic>
     <guid>1a01a2d7-c1fd-4940-8b26-5209c0c23049</guid>
@@ -22,5 +23,9 @@
   <topic>
     <guid>f67bfa14-3eb6-448a-b838-9386930fda1b</guid>
     <filename>f67bfa14-3eb6-448a-b838-9386930fda1b.html</filename>
+  </topic>
+  <topic>
+    <guid>2ddb36ff-5aa5-4476-a90b-e60dce9fc29d</guid>
+    <filename>Test Topic 5.html</filename>
   </topic>
 </topics>
